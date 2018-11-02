@@ -15,7 +15,7 @@ from keras.models import Model
 from keras.initializers import glorot_uniform
 from keras.preprocessing import image
 from keras.applications.imagenet_utils import preprocess_input
-from keras.callbacks import EarlyStopping
+from keras.callbacks import EarlyStopping, ModelCheckpoint
 import keras.backend as K
 
 
